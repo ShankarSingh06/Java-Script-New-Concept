@@ -8,12 +8,13 @@ function sayMyName(){
     console.log("H");
 }
 
-// sayMyName()
+//sayMyName()
 
-// function addTwoNumbers(number1, number2){
+ function addTwoNumbers(number1, number2){
 
-//     console.log(number1 + number2);
-// }
+     console.log(number1 + number2);
+}
+//addTwoNumbers(3, 5)
 
 function addTwoNumbers(number1, number2){
 
@@ -24,7 +25,7 @@ function addTwoNumbers(number1, number2){
 
 const result = addTwoNumbers(3, 5)
 
-// console.log("Result: ", result);
+ console.log("Result: ", result);
 
 
 function loginUserMessage(username = "sam"){
@@ -51,7 +52,7 @@ const user = {
 }
 
 function handleObject(anyobject){
-    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    //console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
 // handleObject(user)
@@ -67,4 +68,4 @@ function returnSecondValue(getArray){
 }
 
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 400, 500, 1000]));
+//console.log(returnSecondValue([200, 400, 500, 1000]));
