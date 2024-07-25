@@ -10,7 +10,7 @@ const JsUser = {
     name: "Hitesh",
     "full name": "Hitesh Choudhary",
     [mySym]: "mykey1",
-    age: 18,
+    age: 38,
     location: "Jaipur",
     email: "hitesh@google.com",
     isLoggedIn: false,

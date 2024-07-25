@@ -1,13 +1,19 @@
 const marvel_heros = ["thor", "Ironman", "spiderman"]
 const dc_heros = ["superman", "flash", "batman"]
 
-// marvel_heros.push(dc_heros)
+const allHeros2 = marvel_heros.concat(dc_heros)
+//console.log(allHeros2);
 
-// console.log(marvel_heros);
+ marvel_heros.push(dc_heros)
+
+ //console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
 
-// const allHeros = marvel_heros.concat(dc_heros)
-// console.log(allHeros);
+ const allHeros = marvel_heros.concat(dc_heros)
+ //onsole.log(allHeros);
+
+ const allHeros1 = marvel_heros.concat(dc_heros)
+ //console.log(allHeros1);
 
 const all_new_heros = [...marvel_heros, ...dc_heros]
 
@@ -16,7 +22,8 @@ const all_new_heros = [...marvel_heros, ...dc_heros]
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
 const real_another_array = another_array.flat(Infinity)
-console.log(real_another_array);
+//console.log(real_another_array);
+//console.log(another_array[5][2][1]);
 
 
 
