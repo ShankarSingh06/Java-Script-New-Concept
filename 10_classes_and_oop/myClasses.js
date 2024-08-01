@@ -23,7 +23,7 @@ console.log(chai.changeUsername());
 
 // behind the scene
 
-function User(username, email, password){
+function user(username, email, password){
     this.username = username;
     this.email = email;
     this.password = password
@@ -37,7 +37,7 @@ User.prototype.changeUsername = function(){
 }
 
 
-const tea = new User("tea", "tea@gmail.com", "123")
+const tea = new user("tea", "tea@gmail.com", "123")
 
 console.log(tea.encryptPassword());
 console.log(tea.changeUsername());
